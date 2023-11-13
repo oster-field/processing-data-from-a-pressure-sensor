@@ -1,5 +1,6 @@
 # processing-data-from-a-pressure-sensor
-Processing data from a pressure sensor located under water to obtain real displacements of the water surface
+Processing data from a pressure sensor located under water to obtain real displacements of the water surface.
+It's a Python Package, requiring folder 'DataTXT' with readings from sensor. 
 1) Reading data from sensor, converting .dat to .npy
 The data is divided into separate format fragments (date, record) containing a fixed number of points.
 2) Plotting a graph of pressure fluctuations by day. The number of points included in the construction is noticeably reduced.
